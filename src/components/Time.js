@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ButaoGol from './BotaoGol';
+import BotaoGol from './BotaoGol';
 
 export default class Time extends React.Component {
   render() {
@@ -8,7 +8,7 @@ export default class Time extends React.Component {
         <div>
             <h1>Vasco</h1>
             <h2>0</h2>
-            <botaoGol />
+            <BotaoGol />
         </div>
         );
     }
